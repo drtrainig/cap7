@@ -1,4 +1,4 @@
-package com.itfactory.Mostenire;
+package com.itfactory.problema1;
 
 public class Produs {
     private String numeProdus;
@@ -8,7 +8,10 @@ public class Produs {
     public Produs(String numeProdus, double pret, int discount) {
         this.numeProdus = numeProdus;
         this.pret = pret;
-        this.discount = discount;
+        //Verific daca se incadreaza discountul. Daca valoarea nu se incadreaza ramane setat pe 0
+        if (discount >= 0 && discount <= 100) {
+            this.discount = discount;
+        }
     }
 
     public double calculeazaPretFinal() {

@@ -1,9 +1,9 @@
 package com.itfactory.utils;
 
-import com.itfactory.Mostenire.Electronice;
-import com.itfactory.Mostenire.Imbracaminte;
-import com.itfactory.Mostenire.IngrijirePersonala;
-import com.itfactory.Mostenire.Produs;
+import com.itfactory.problema1.Electronice;
+import com.itfactory.problema1.Imbracaminte;
+import com.itfactory.problema1.IngrijirePersonala;
+import com.itfactory.problema1.Produs;
 
 import java.util.Scanner;
 

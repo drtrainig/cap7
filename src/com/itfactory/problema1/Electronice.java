@@ -1,4 +1,4 @@
-package com.itfactory.Mostenire;
+package com.itfactory.problema1;
 
 public class Electronice extends Produs {
 
