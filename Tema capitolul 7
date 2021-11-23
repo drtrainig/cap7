@@ -1,6 +1,9 @@
 Link List: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
 Link Arrays: https://www.w3schools.com/java/java_arrays.asp
 
+Exemplu de sortare a unei liste in care folosim o clasa definita de noi: (Optional)
+https://howtodoinjava.com/java/sort/collections-sort/
+
 Nota explicativa:
 
 Pentru liste nu putem folosi primitive, doar pentru array-uri asa ca vin in ajutor cu sugestii:
