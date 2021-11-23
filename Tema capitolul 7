@@ -40,7 +40,7 @@ Exemplu:
 Introduceti cuvantul: birou // O sa il introduc
 Introduceti cuvantul: para // Nu sa il introduc
 
-PROBLEMA 4: Atentie: Pentru problemele 1.a si 1.b este necesar sa creati doar un proiect. (Problema1)
+PROBLEMA 4: Atentie: Pentru problemele 4.a si 4.b este necesar sa creati doar un proiect. (Problema1)
 Problema4.a
 Sa se creeze o clasa simpla (ProblemaArray) in care se va defini main.
 Pentru aceasta problema se cere sa se initieze un array de stringuri citite de la tastatura. (Numarul il stabiliti voi. Alegeti cel putin 3 elemente ca sa nu fie nici 1 sau 2 ca nu ar mai avea sens array-ul).
