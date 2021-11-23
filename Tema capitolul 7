@@ -22,8 +22,26 @@ listaDeInt.add(21);
 
 Tema capitolul 7
 
-PROBLEMA 1: Atentie: Pentru problemele 1.a si 1.b este necesar sa creati doar un proiect. (Problema1)
-Problema1.a
+Problema 1.
+Sa se creeze un progeram simplu (O clasa Main cu metoda main) in care se va defini un array de elemente de tip int (primitiva). Lungimea array-ului (int) se va citi de la tastatura.
+(Folositi <int lungime = Integer.parseInt(scanner.nextLine());> pentru a citi int-ul (contraindicat scanner.nextInt()).
+Cu ajutorul unei bucle for se vor introduce in array elemente random intre 0 si 20. Afisati array-ul.
+
+Problema 2.
+Sa se creeze un progeram simplu (O clasa Main cu metoda main) in care se va defini un array de elemente de tip String. Lungimea array-ului (int) se va citi de la tastatura.
+(Folositi <int lungime = Integer.parseInt(scanner.nextLine());> pentru a citi int-ul (contraindicat scanner.nextInt()).
+Cu ajutorul unei bucle for se vor introduce in array elemente citite de la tastatura. Afisati array-ul.
+
+Problema 3.
+Sa se creeze un progeram simplu (O clasa Main cu metoda main) in care se va defini o lista de Stringuri (List<String>).
+Mai departe se vor citi de la tastatura mai multe String-uri (Alegeti un numar relativ mic sa nu va complicati. de exemplu 3-4 valori sunt de ajuns).
+Aceste String-uri se vor introduce in lista doar string-urile citite care nu contin litera "a". (se va verfifica cu metoda contains din String)
+Exemplu:
+Introduceti cuvantul: birou // O sa il introduc
+Introduceti cuvantul: para // Nu sa il introduc
+
+PROBLEMA 4: Atentie: Pentru problemele 1.a si 1.b este necesar sa creati doar un proiect. (Problema1)
+Problema4.a
 Sa se creeze o clasa simpla (ProblemaArray) in care se va defini main.
 Pentru aceasta problema se cere sa se initieze un array de stringuri citite de la tastatura. (Numarul il stabiliti voi. Alegeti cel putin 3 elemente ca sa nu fie nici 1 sau 2 ca nu ar mai avea sens array-ul).
 
@@ -34,7 +52,7 @@ array2 pe care il veti construi pe baza array1: banana cireasa par mar.
 Se vor afisa ambele array-uri element cu element folosind parcurgerea cu for.
 
 
-Problema1.a
+Problema4.b
 Sa se creeze o clasa simpla (ProblemaListe) in care se va defini doar main.
 Se cere sa se creeze o lista de numere intregi (folosind List din java).
 Folosind o bucla while se cere sa se genereze numere intregi (folosind Random) pana in momentul in care numarul generat este 10. (cand se genereaza 10 se iese din bucla).
@@ -49,7 +67,7 @@ Introduc numerele intr-0 lista.
 Parcurg lista si cand intalnesc valoarea 5 incrementez un contor. (Un contor inseamna  ca ne definim o variabila de tip int pe care o incrementam cand intalnim valoarea 5 in lista).
 
 
-PROBLEMA2
+PROBLEMA5
 Sa se un program in Java pe baza urmatoarelor cerinte.
 1. Sa se creeze o interfata Task in care se va declara metoda executa. ("void executa();")
 2. Se va crea o clasa Printer care va implementa implementa interfata Task. Aceasta clasa va avea un parametru de tip String (folositi constructor cu parametri). Metoda execute implementata din interfata va afisa string-ul respectiv.
@@ -59,7 +77,7 @@ Sa se un program in Java pe baza urmatoarelor cerinte.
 6. Se va parcurge lista si se vor executa task-urile fiecarui element.
 
 
-PROBLEMA3
+PROBLEMA6
 Sa se creeze un program in Java pe baza urmatoarelor cerinte:
 1. Se va creea o clasa Produs cu proprietatile denumire si pret. (stabiliti tipurile corect). Constructor cu parametri. Generati metoda equals corespunzator dupa modelul de la curs.
 2. Sa se creeze clasa Main cu metoda main in care se va creea o lista de produse. (Presupunem ca este stocul unui magazin)
